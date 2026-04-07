@@ -14,7 +14,17 @@ public class ClasseJavaProjet {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        String marque = "Peugeot";
+        String modele = "208";
+        int annee = 2021;
+        double prix = 14500.0;
+        
+        System.out.println("Marque : " + marque);
+        System.out.println("Modele : " + modele);
+        System.out.println("Annee : " + annee);
+        System.out.println("prix  :" + prix );
     }
-    
 }
+    
+    
+
